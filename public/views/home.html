@@ -1,0 +1,22 @@
+<div class="jumbotron text-center">
+	<h1>Home Page</h1>
+
+	<p>{{ tagline }}</p>
+    <!-- Teams LIST -->
+    <div id="teams-list" class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+
+            <!-- LOOP OVER THE teams IN $scope.teams -->
+            <div class="checkbox" ng-repeat="team in teams">
+                <label>
+                    {{ team.name }}
+                </label>
+            </div>
+
+            <p class="text-center" ng-show="loading">
+                <span class="fa fa-spinner fa-spin fa-3x"></span>
+            </p>
+
+        </div>
+    </div>
+</div>

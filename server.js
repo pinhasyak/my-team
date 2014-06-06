@@ -11,16 +11,23 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var router = require('./app/routers/api')
+var morgan = require('morgan');
+
+var apiRouter = require('./app/routers/api');
+var clientRouter = require('./app/routers/client');
+// config files
+var db = require('./config/db');
 
 var app = express();
-// configure app to use bodyParser()
-// this will let us get the data from a POST
-app.use(bodyParser());
+app.use(express.static(__dirname + '/public')); 	// set the static files location /public/img will be /img for users
+app.use(morgan('dev')); 					// log every request to the console
+app.use(bodyParser()); 						// pull information from html in POST
+
+
 
 // Here we find an appropriate database to connect to, defaulting to
 // localhost if we don't find one.
-var uristring = process.env.MONGOLAB_URI ||  process.env.MONGOHQ_URL || 'mongodb://localhost/HelloMongoose';
+var uristring = process.env.MONGOLAB_URI ||  process.env.MONGOHQ_URL || db.url;
 // connect to our database
 mongoose.connect(uristring, function (err, res) {
     if (err) {
@@ -35,8 +42,8 @@ var port = process.env.PORT || 8080;
 
 // REGISTER OUR ROUTS
 // all of our routs will be prefixed with /api
-app.use('/api', router);
-
+app.use('/api', apiRouter);
+app.use('*', clientRouter);
 // START THE SERVER
 // ======================================================
 app.listen(port);
