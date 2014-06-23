@@ -8,25 +8,17 @@
 // ===============================================
 
 // call the packages we need
-var express = require('express');
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
-var morgan = require('morgan');
+var express = require('express')
+    , bodyParser = require('body-parser')
+    , cookieParser = require('cookie-parser')
+    , session = require('express-session')
+    , passport = require('passport')
+    , mongoose = require('mongoose')
+    , morgan = require('morgan');
 
-var apiRouter = require('./app/routers/api');
-var clientRouter = require('./app/routers/client');
-// config files
+
+// DB configuration ===============================================================
 var db = require('./config/db');
-
-var app = express();
-app.use(express.static(__dirname + '/public')); 	// set the static files location /public/img will be /img for users
-app.use(morgan('dev')); 					// log every request to the console
-app.use(bodyParser()); 						// pull information from html in POST
-
-
-
-// Here we find an appropriate database to connect to, defaulting to
-// localhost if we don't find one.
 var uristring = process.env.MONGOLAB_URI ||  process.env.MONGOHQ_URL || db.url;
 // connect to our database
 mongoose.connect(uristring, function (err, res) {
@@ -37,13 +29,31 @@ mongoose.connect(uristring, function (err, res) {
     }
 });
 
+// pass passport for configuration
+require('./config/passport')(passport); // pass passport for configuration
+
+
+var app = express();
+app.use(express.static(__dirname + '/public')); 	// set the static files location /public/img will be /img for users
+app.use(morgan('dev')); 					// log every request to the console
+app.use(cookieParser());
+app.use(bodyParser()); 						// pull information from html in POST
+app.use(session({secret: 'multi vision unicorns'}));
+app.use(passport.initialize());
+app.use(passport.session());
+
 // set our port
 var port = process.env.PORT || 8080;
 
 // REGISTER OUR ROUTS
 // all of our routs will be prefixed with /api
+
+var apiRouter = require('./app/routers/api');
+var clientRouter = require('./app/routers/client');
 app.use('/api', apiRouter);
 app.use('*', clientRouter);
+
+
 // START THE SERVER
 // ======================================================
 app.listen(port);

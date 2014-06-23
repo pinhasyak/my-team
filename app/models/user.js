@@ -5,11 +5,18 @@ var mongoose = require('mongoose')
     , BaseSchema = require('./baseSchema');
 
 var UserSchema = new BaseSchema({
-    firstName:{type: String, default: ''}
-    ,lastName:{type: String, default: ''}
-    ,username:{type: String, default: ''}
-    ,password:{type: String, default: ''}
-    ,profilePhotoImported:{type: Boolean,default: false}
+    name:{type: String, default: ''}
+    , email:{type: String,default: ''}
+    , password:{type: String}
+    , salt:{type: String}
+    , firstName:{type: String, default: ''}
+    , lastName:{type: String, default: ''}
 });
+UserSchema.methods = {
+    authenticate:function(passwordToMatch){
 
-module.exports = mongoose.model('UserModel', UserSchema);
+    }
+}
+var UserModel = mongoose.model('UserModel', UserSchema);
+
+module.exports = UserModel;

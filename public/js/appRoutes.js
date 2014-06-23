@@ -1,4 +1,5 @@
-angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+angular.module('appRoutes', []).
+    config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 	$routeProvider
 
@@ -13,7 +14,7 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'TeamsController'
 		})
 
-		.when('/geeks', {
+		.when('/chat', {
 			templateUrl: 'views/chat.html',
 			controller: 'ChatController'
 		});

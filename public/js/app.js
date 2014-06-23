@@ -1,1 +1,1 @@
-angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'TeamsCtrl', 'ChatCtrl','TeamsService']);
+angular.module('app', ['ngRoute', 'appRoutes', 'MainCtrl', 'TeamsCtrl', 'ChatCtrl','TeamsService','UserService','IdentityService','NotifierService','AuthService']);

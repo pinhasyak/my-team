@@ -6,6 +6,8 @@ var express = require('express')
     ,CompanyModel = require('../models/company')
     ,ProjectModel = require('../models/project')
     ,TeamModel = require('../models/team')
+    ,cripto = require('../models/cripto')
+    ,passport = require('passport');
 
 
 // ROUTES FOR OUR API
@@ -17,7 +19,7 @@ var router = express.Router();
 // middleware to use for all requests
 router.use(function(req,res,next){
 //   do liogging
-    console.log('request: '+req.method);
+//    console.log('request: '+req.method);
     next(); // make sure we go to next routers and don't stot here
 });
 
@@ -26,25 +28,49 @@ router.get('/',function(req,res){
     res.json({message: 'hooray! welcome to our api'});
 });
 
-
+router.route('/login')
+    .post(function(req,res,next){
+        var auth = passport.authenticate('local',function(error,user){
+            if(error){console.log('login error '+ error)}
+            if(!user){
+                console.log('not find user: '+req.body.username);
+                res.send({success:false});
+            }
+            req.logIn(user,function(err){
+                if(err){return next(err)}
+                res.send({success:true,user:user})
+            })
+        });
+        auth(req,res,next);
+    });
+router.route('/logout')
+    .post(function(req,res,next){
+        req.logOut();
+        res.end();
+})
 // more routers for our API will happen here
 // on routers that end in /user
 // ---------------------------------------------------------
 router.route('/users')
-    // create a bear (accessed at POST http://localhost:8080/api/bears)
+    // create a bear (accessed at POST http://localhost:8080/api/users)
     .post(function(req,res){
+        var salt ,hashPassword;
+        salt = cripto.createSalt();
+        hashPassword = cripto.hashPwd(salt,req.body.password);
         var user = new UserModel({
-            firstName: req.body.firstName
+            name: req.body.name
+            , email: req.body.email
+            , password: hashPassword
+            , salt:salt
+            , firstName: req.body.firstName
             , lastName: req.body.lastName
-            , username: req.body.username
+
         }); // create a new instance of the User model
 
         user.save(function(err){
             if(err) res.send(err);
             res.json({message:'user created!',
-                parentName: req.body.firstName
-               , lastName: req.body.lastName
-               , username: req.body.username
+                name: user.name
             });
         });
     })

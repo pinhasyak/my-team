@@ -23,85 +23,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="651" selection-end="651" vertical-scroll-proportion="-8.275862" vertical-offset="160" max-vertical-offset="1000">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controllers/ChatCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TeamsCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/controllers/TeamsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teams.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/teams.html">
+      <file leaf-file-name="AuthService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/services/AuthService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="15" selection-start="69" selection-end="69" vertical-scroll-proportion="-1.2758621" vertical-offset="23" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appRoutes.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="200" selection-end="200" vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamsService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/services/TeamsService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="52" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+            <state line="20" column="34" selection-start="692" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="620">
               <folding>
-                <element signature="e#0#35#0" expanded="false" />
+                <element signature="e#0#36#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routers/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="88" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="114" column="24" selection-start="3584" selection-end="3584" vertical-scroll-proportion="0.0" vertical-offset="1899" max-vertical-offset="2400">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="53" column="25" selection-start="1653" selection-end="1665" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1300">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routers/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="24" selection-start="625" selection-end="625" vertical-scroll-proportion="0.9049881" vertical-offset="179" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-6.206897" vertical-offset="500" max-vertical-offset="2520">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,19 +102,32 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/models/baseSchema.js" />
-        <option value="$PROJECT_DIR$/app/models/user.js" />
         <option value="$PROJECT_DIR$/app/models/project.js" />
         <option value="$PROJECT_DIR$/app/models/company.js" />
         <option value="$PROJECT_DIR$/app/models/team.js" />
-        <option value="$PROJECT_DIR$/app/routers/api.js" />
         <option value="$PROJECT_DIR$/public/js/services/TeamsService.js" />
         <option value="$PROJECT_DIR$/public/js/controllers/MainCtrl.js" />
-        <option value="$PROJECT_DIR$/public/views/home.html" />
-        <option value="$PROJECT_DIR$/public/js/controllers/TeamsCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/controllers/ChatCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/appRoutes.js" />
+        <option value="$PROJECT_DIR$/public/views/home.html" />
+        <option value="$PROJECT_DIR$/public/js/services/UserService.js" />
+        <option value="$PROJECT_DIR$/public/js/nvNotifier.js" />
+        <option value="$PROJECT_DIR$/public/js/mvNotifier.js" />
+        <option value="$PROJECT_DIR$/public/js/services/NotifierService.js" />
+        <option value="$PROJECT_DIR$/public/js/services/IdentityService.js" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/config/auth.js" />
+        <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/app/models/cripto.js" />
+        <option value="$PROJECT_DIR$/app/models/user.js" />
+        <option value="$PROJECT_DIR$/public/views/teams.html" />
+        <option value="$PROJECT_DIR$/public/js/controllers/TeamsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/services/AuthService.js" />
+        <option value="$PROJECT_DIR$/app/routers/api.js" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/app/routers/client.js" />
       </list>
     </option>
   </component>
@@ -209,104 +206,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -328,10 +227,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -340,9 +235,26 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="&#10;TeamsCtrl" />
+    <property name="SearchEverywhereHistory" value="&#10;toastr&#10;jquery.&#10;TeamsCtrl" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nodejs\workspace\my-team\public\images" />
+      <recent name="C:\nodejs\workspace\my-team\public\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\nodejs\workspace\my-team\public\js\services" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -353,23 +265,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -391,15 +295,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27317074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -409,9 +313,28 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50569105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -432,46 +355,73 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/ChatCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/TeamsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="76" selection-start="76" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/teams.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="129" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="55" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="600" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/company.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="5" column="28" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="960">
-          <folding />
-        </state>
+        <state line="37" column="17" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/team.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="460">
-          <folding />
-        </state>
+        <state line="14" column="8" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="460" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/baseSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="500">
-          <folding />
-        </state>
+        <state line="17" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="500" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="380">
-          <folding />
-        </state>
+        <state line="9" column="36" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routers/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1880">
-          <folding />
-        </state>
+        <state line="19" column="38" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1880" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -481,163 +431,223 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="0" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="17" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1100">
-          <folding />
-        </state>
+        <state line="24" column="22" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/company.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="5" column="28" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/angular/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/bootstrap/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/bootstrap/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.2" vertical-offset="480" max-vertical-offset="3580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="421" selection-end="421" vertical-scroll-proportion="0.4225352" vertical-offset="0" max-vertical-offset="568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="76" selection-start="76" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/ChatCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="39140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/bootstrap/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="440" selection-end="440" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/jquery/dist/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="183920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="26" selection-start="6390" selection-end="6391" vertical-scroll-proportion="-3.1454546" vertical-offset="2487" max-vertical-offset="6920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/appDirectives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="290" selection-end="290" vertical-scroll-proportion="-6.206897" vertical-offset="80" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="323" selection-end="338" vertical-scroll-proportion="0.45774648" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="363" selection-end="363" vertical-scroll-proportion="0.37351444" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/toastr/toastr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0033955858" vertical-offset="2" max-vertical-offset="6660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/NotifierService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="385" selection-end="385" vertical-scroll-proportion="0.44142616" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/teams.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-8.0" vertical-offset="208" max-vertical-offset="2580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="160" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/baseSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+        <state line="14" column="49" selection-start="357" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/project.js">
+    <entry file="file://$PROJECT_DIR$/app/models/cripto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="10" column="33" selection-start="261" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="123" selection-end="123" vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="300">
+        <state line="7" column="11" selection-start="153" selection-end="159" vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="320">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/angular/.bower.json">
+    <entry file="file://$PROJECT_DIR$/app/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+        <state line="3" column="12" selection-start="41" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/bootstrap/.bower.json">
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+        <state line="48" column="43" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/bootstrap/README.md">
+    <entry file="file://$PROJECT_DIR$/public/js/services/IdentityService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.2" vertical-offset="480" max-vertical-offset="3580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/team.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="421" selection-end="421" vertical-scroll-proportion="0.4225352" vertical-offset="0" max-vertical-offset="568">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routers/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="20" selection-start="1945" selection-end="1950" vertical-scroll-proportion="1.9694397" vertical-offset="60" max-vertical-offset="1880">
+        <state line="5" column="8" selection-start="125" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/services/TeamsService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="52" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/appDirectives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/teams.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="15" selection-start="69" selection-end="69" vertical-scroll-proportion="-1.2758621" vertical-offset="23" max-vertical-offset="540">
+        <state line="10" column="47" selection-start="281" selection-end="281" vertical-scroll-proportion="0.4750594" vertical-offset="0" max-vertical-offset="500">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/TeamsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/AuthService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="692" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="620">
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="88" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+        <state line="0" column="160" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="651" selection-end="651" vertical-scroll-proportion="-8.275862" vertical-offset="160" max-vertical-offset="1000">
+        <state line="34" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-6.206897" vertical-offset="500" max-vertical-offset="2520">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routers/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="24" selection-start="3584" selection-end="3584" vertical-scroll-proportion="0.0" vertical-offset="1899" max-vertical-offset="2400">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/ChatCtrl.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+        <state line="53" column="25" selection-start="1653" selection-end="1665" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/appRoutes.js">
+    <entry file="file://$PROJECT_DIR$/app/routers/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="200" selection-end="200" vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="560">
+        <state line="28" column="24" selection-start="625" selection-end="625" vertical-scroll-proportion="0.9049881" vertical-offset="179" max-vertical-offset="680">
           <folding />
         </state>
       </provider>

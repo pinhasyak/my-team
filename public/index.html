@@ -1,44 +1,120 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<base href="/">
+    <meta charset="UTF-8">
+    <base href="/">
 
-	<title>Starter Node and Angular</title>
+    <title>Starter Node and Angular</title>
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/toastr/toastr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- custom styles -->
 
-	<!-- JS -->
-	<script src="libs/angular/angular.min.js"></script>
-	<script src="libs/angular-route/angular-route.min.js"></script>
+    <!-- JS -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="libs/toastr/toastr.js"></script>
 
-	<!-- ANGULAR CUSTOM -->
-	<script src="js/controllers/MainCtrl.js"></script>
-	<script src="js/controllers/TeamsCtrl.js"></script>
+    <!-- ANGULAR CUSTOM -->
+    <script src="js/controllers/MainCtrl.js"></script>
+    <script src="js/controllers/TeamsCtrl.js"></script>
     <script src="js/services/TeamsService.js"></script>
-	<script src="js/controllers/ChatCtrl.js"></script>
-	<script src="js/appRoutes.js"></script>
-	<script src="js/app.js"></script>
+    <script src="js/services/UserService.js"></script>
+    <script src="js/services/IdentityService.js"></script>
+    <script src="js/services/NotifierService.js"></script>
+    <script src="js/services/AuthService.js"></script>
+    <script src="js/controllers/ChatCtrl.js"></script>
+    <script src="js/appRoutes.js"></script>
+    <script src="js/app.js"></script>
 </head>
-<body ng-app="sampleApp" ng-controller="TeamsController">
-<div class="container">
-	
-	<!-- HEADER -->
-	<nav class="navbar navbar-inverse">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="/">Home</a>
-		</div>
-		<ul class="nav navbar-nav">
-			<li><a href="/teams">Edit Team</a></li>
-			<li><a href="/geeks">Chat</a></li>
-		</ul>
-	</nav>
+<body ng-app="app" ng-controller="TeamsController">
 
-	<!-- ANGULAR DYNAMIC CONTENT -->
-	<div ng-view></div>
+<header class="container">
+    <!-- HEADER -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom" role="banner">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-contents">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" rel="home" href="#" title="My Team">
+                    <!--<b>MY TEAM</b> -->
+
+                    <img style="max-width:100px; margin-top: -11px;"
+                         src="images/MyTeam.png">
+
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-contents">
+                <ul class="nav navbar-nav">
+                    <li><a href="/teams">Edit Team</a></li>
+                    <li><a href="/chat">Chat</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group input-group-sm">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-sm">Search</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left" ng-hide="identity.isAuthenticated()">
+                        <div class="form-group input-group-sm">
+                            <input type="text" class="form-control" ng-model="userSignIn.email"
+                                   placeholder="email">
+                        </div>
+                        <div class="form-group input-group-sm">
+                            <input type="text" class="form-control" ng-model="userSignIn.password"
+                                   placeholder="password">
+                        </div>
+                        <button type="submit" class="btn btn-sm" ng-click="login()">Sign In</button>
+                    </form>
+                    <li class="dropdown" ng-show="identity.isAuthenticated()">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hi {{identity.currentUser.name}}<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" ng-click="logout()">Sign Out</a></li>
+                        </ul>
+                    </li>
+                    <li ng-hide="identity.isAuthenticated()"><a href="#">Sign Up</a></li>
+                    <li>
+                        <button type="button" class="btn btn-warning navbar-btn btn-sm">Take the Tour</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
+<div class="container">
+
+    <!-- ANGULAR DYNAMIC CONTENT -->
+    <div ng-view></div>
 
 </div>
+
 </body>
 </html>
