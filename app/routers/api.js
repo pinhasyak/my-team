@@ -7,7 +7,8 @@ var express = require('express')
     ,ProjectModel = require('../models/project')
     ,TeamModel = require('../models/team')
     ,cripto = require('../models/cripto')
-    ,passport = require('passport');
+    ,passport = require('passport')
+    ,auth = require('../../config/auth');
 
 
 // ROUTES FOR OUR API
@@ -27,7 +28,10 @@ router.use(function(req,res,next){
 router.get('/',function(req,res){
     res.json({message: 'hooray! welcome to our api'});
 });
-
+router.route('/current_user')
+    .get(function(req,res,next){
+     res.json(req.user);
+});
 router.route('/login')
     .post(function(req,res,next){
         var auth = passport.authenticate('local',function(error,user){
@@ -51,6 +55,16 @@ router.route('/logout')
 // more routers for our API will happen here
 // on routers that end in /user
 // ---------------------------------------------------------
+router.route('/users/:id')
+    .get(function(req,res){
+        console.log(req.params.id);
+        UserModel.find( { _id: req.params.id },function(err,user){
+            if(err) res.send(err);
+            res.json(user);
+        })
+    });
+
+
 router.route('/users')
     // create a bear (accessed at POST http://localhost:8080/api/users)
     .post(function(req,res){
@@ -64,6 +78,7 @@ router.route('/users')
             , salt:salt
             , firstName: req.body.firstName
             , lastName: req.body.lastName
+            , roles: ['team_leader']
 
         }); // create a new instance of the User model
 
@@ -75,10 +90,10 @@ router.route('/users')
         });
     })
     // get all the bears (accessed at GET http://localhost:8080/api/bears
-    .get(function(req,res){
-        UserModel.find(function(err,users){
+    .get(auth.requiresRole('team_leader'),function(req,res){
+        UserModel.find({}).exec(function(err,users){
             if(err) res.send(err);
-            res.json(users);
+            res.send(users);
         });
     })
 

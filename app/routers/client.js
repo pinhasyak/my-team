@@ -17,13 +17,15 @@ var router = express.Router();
 // middleware to use for all requests
 router.use(function(req,res,next){
 //   do liogging
-//    console.log('request: '+req.method);
+    console.log(req.user);
     next(); // make sure we go to next routers and don't stot here
 });
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 router.get('*',function(req,res){
-    res.sendfile('./public/index.html');
+    res.sendfile('./public/index.html',{
+        bootstrappedUser: req.user
+    });
 });
 
 module.exports = router;

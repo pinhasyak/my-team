@@ -34,6 +34,7 @@ require('./config/passport')(passport); // pass passport for configuration
 
 
 var app = express();
+
 app.use(express.static(__dirname + '/public')); 	// set the static files location /public/img will be /img for users
 app.use(morgan('dev')); 					// log every request to the console
 app.use(cookieParser());

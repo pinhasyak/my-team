@@ -6,11 +6,12 @@ var mongoose = require('mongoose')
 
 var UserSchema = new BaseSchema({
     name:{type: String, default: ''}
-    , email:{type: String,default: ''}
-    , password:{type: String}
+    , email:{type: String,required: true, unique: true}
+    , password:{type: String,required: true}
     , salt:{type: String}
     , firstName:{type: String, default: ''}
     , lastName:{type: String, default: ''}
+    , roles: {type:[String]}
 });
 UserSchema.methods = {
     authenticate:function(passwordToMatch){
