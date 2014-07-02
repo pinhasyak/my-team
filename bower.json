@@ -6,6 +6,7 @@
     "angular": "latest",
     "angular-route": "latest",
     "toastr": "~2.0.3",
-    "angular-resource": "~1.2.18"
+    "angular-resource": "~1.2.18",
+    "angular-mocks": "~1.2.18"
   }
 }

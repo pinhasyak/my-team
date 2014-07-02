@@ -73,7 +73,7 @@ router.route('/users')
         hashPassword = cripto.hashPwd(salt,req.body.password);
         var user = new UserModel({
             name: req.body.name
-            , email: req.body.email
+            , email: req.body.email.toLowerCase()
             , password: hashPassword
             , salt:salt
             , firstName: req.body.firstName

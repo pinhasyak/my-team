@@ -5,9 +5,9 @@ var mongoose = require('mongoose')
     , BaseSchema = require('./baseSchema');
 
 var UserSchema = new BaseSchema({
-    name:{type: String, default: ''}
-    , email:{type: String,required: true, unique: true}
-    , password:{type: String,required: true}
+    name:{type: String, required:'{PATH} is required'}
+    , email:{type: String,required:'{PATH} is required', unique: true}
+    , password:{type: String,required:'{PATH} is required'}
     , salt:{type: String}
     , firstName:{type: String, default: ''}
     , lastName:{type: String, default: ''}

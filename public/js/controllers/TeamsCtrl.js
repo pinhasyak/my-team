@@ -7,7 +7,7 @@ angular.module('TeamsCtrl', []).controller('TeamsController', function ($scope, 
     $scope.identity = Identity;
 
     $scope.login = function () {
-        Auth.authenticateUser($scope.userSignIn.email, $scope.userSignIn.password).then(function (success) {
+        Auth.authenticateUser($scope.userSignIn.email.toLowerCase(), $scope.userSignIn.password).then(function (success) {
             if (success) {
                 Notifier.notify('You have successfully signed in!');
             }

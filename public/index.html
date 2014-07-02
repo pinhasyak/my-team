@@ -89,7 +89,7 @@
                                    placeholder="email">
                         </div>
                         <div class="form-group input-group-sm">
-                            <input type="text" class="form-control" ng-model="userSignIn.password"
+                            <input type="password" class="form-control" ng-model="userSignIn.password"
                                    placeholder="password">
                         </div>
                         <button type="submit" class="btn btn-sm" ng-click="login()">Sign In</button>
@@ -101,7 +101,7 @@
                             <li><a href="#" ng-click="logout()">Sign Out</a></li>
                         </ul>
                     </li>
-                    <li ng-hide="identity.isAuthenticated()"><a href="#">Sign Up</a></li>
+                    <li ng-hide="identity.isAuthenticated()"><a href="/sighup">Sign Up</a></li>
                     <li>
                         <button type="button" class="btn btn-warning navbar-btn btn-sm">Take the Tour</button>
                     </li>

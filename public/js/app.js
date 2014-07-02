@@ -15,7 +15,10 @@ angular.module('myTeamApp').config(['$routeProvider', '$locationProvider', funct
                 templateUrl: 'views/home.html',
                 controller: 'MainController'
             })
-
+            .when('/sighup',{
+                templateUrl: 'views/teams.html',
+                controller: 'TeamsController'
+            })
             .when('/teams', {
                 templateUrl: 'views/teams.html',
                 controller: 'TeamsController'
