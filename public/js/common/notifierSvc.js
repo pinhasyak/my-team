@@ -1,9 +1,9 @@
 /**
- * Created by pi on 6/20/14.
-*/
-angular.module('NotifierService',[])
+ * Created by Pinhas on 7/21/2014.
+ */
+angular.module('common')
     .value('Toaster',toastr)
-    .factory('Notifier',function(Toaster){
+    .factory('notifierService',function(Toaster){
         return{
             notify:function(msg){
                 Toaster.success(msg);
@@ -14,4 +14,4 @@ angular.module('NotifierService',[])
                 console.log(msg);
             }
         }
-})
+    })

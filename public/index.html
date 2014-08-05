@@ -21,19 +21,29 @@
     <script src="libs/toastr/toastr.js"></script>
 
     <!-- ANGULAR CUSTOM -->
-    <script src="js/controllers/MainCtrl.js"></script>
-    <script src="js/controllers/TeamsCtrl.js"></script>
-    <script src="js/controllers/AdminUsersCtrl.js"></script>
-    <script src="js/services/TeamsService.js"></script>
-    <script src="js/services/UserService.js"></script>
-    <script src="js/services/IdentityService.js"></script>
-    <script src="js/services/NotifierService.js"></script>
-    <script src="js/services/AuthService.js"></script>
-    <script src="js/services/LoggedUserService.js"></script>
-    <script src="js/controllers/ChatCtrl.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/controllers/MainCtrl.js"></script>
+
+    <script src="js/controllers/AdminUsersCtrl.js"></script>
+
+    <script src="js/team_edit/teamEdit.js"></script>
+    <script src="js/team_edit/controller/teamEditCtrl.js"></script>
+    <script src="js/team_edit/services/teamEditSvc.js"></script>
+    <script src="js/team_edit/services/userEditSvc.js"></script>
+
+    <script src="js/common/common.js"></script>
+    <script src="js/common/notifierSvc.js"></script>
+
+    <script src="js/access/access"></script>
+    <script src="js/access/controllers/accessCtrl.js"></script>
+    <script src="js/access/services/authSvc"></script>
+    <script src="js/access/services/currentUserSvc.js"></script>
+    <script src="js/access/services/loggedUserSvc.js"></script>
+
+    <script src="js/controllers/ChatCtrl.js"></script>
+
 </head>
-<body ng-controller="TeamsController" data-ng-init="initUser()">
+<body ng-controller="accessCtrl" data-ng-init="initUser()">
 
 <header class="container">
     <!-- HEADER -->
@@ -61,8 +71,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-contents">
                 <ul class="nav navbar-nav">
-                    <li><a href="/teams">Edit Team</a></li>
                     <li><a href="/chat">Chat</a></li>
+                    <li><a href="/teams" ng-hide="identity.isAuthenticated()">Create Team</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -97,7 +107,8 @@
                     <li class="dropdown" ng-show="identity.isAuthenticated()">
                         <a class="dropdown-toggle" data-toggle="dropdown">Hi {{identity.currentUser.name}}<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li ng-show="identity.currentUser.isAdmin()"><a href="/admin/users">isAdmin</a></li>
+                            <li ng-show="identity.currentUser.isAdmin()"><a href="/profile">Profile</a></li>
+                            <li ng-show="identity.currentUser.isAdmin()"><a href="/admin/users">Admin</a></li>
                             <li><a href="#" ng-click="logout()">Sign Out</a></li>
                         </ul>
                     </li>

@@ -3,15 +3,15 @@
  */
 describe('LoggedUser',function(){
     beforeEach(module('myTeamApp'));
-    beforeEach(module('LoggedUserService'));
+    beforeEach(module('access'));
     describe('isAdmin',function(){
-        it('should return false if the roles array does not have eny team_leader entry', inject(function(LoggedUser){
-            var user = new LoggedUser();
+        it('should return false if the roles array does not have eny team_leader entry', inject(function(loggedUserSvc){
+            var user = new loggedUserSvc();
             user.roles = ['not team_leader'];
             expect(user.isAdmin()).to.be.falsey;
         }) )
-        it('should return true if the roles have team_leader entry',inject(function(LoggedUser){
-            var user = new LoggedUser();
+        it('should return true if the roles have team_leader entry',inject(function(loggedUserSvc){
+            var user = new loggedUserSvc();
             user.roles = ['team_leader'];
             expect(user.isAdmin()).to.be.true;
         }))

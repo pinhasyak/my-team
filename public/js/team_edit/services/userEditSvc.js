@@ -1,11 +1,11 @@
 /**
  * Created by pi on 6/18/14.
  */
-angular.module('UserService', [])
+angular.module('teamEdit')
 
     // super simple service
     // each function returns a promise object
-    .factory('Users', function($http) {
+    .factory('userEditSvc', function($http) {
         return {
             get : function() {
                 return $http.get('/api/users');

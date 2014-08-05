@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myTeamApp', ['ngRoute', 'ngResource','TeamsCtrl','MainCtrl', 'ChatCtrl', 'AdminUsersCtrl', 'TeamsService', 'UserService', 'IdentityService', 'NotifierService', 'AuthService', 'LoggedUserService']);
+angular.module('myTeamApp', ['ngRoute', 'ngResource','common','access','teamEdit']);
 
 var routRoleCheck = {
-    team_leader:{auth: function (Auth) {
-        return Auth.authorizeCurrentUserForRoute('team_leader');
+    team_leader:{auth: function (authSvc) {
+        return authSvc.authorizeCurrentUserForRoute('team_leader');
     }}
 }
 
@@ -15,13 +15,13 @@ angular.module('myTeamApp').config(['$routeProvider', '$locationProvider', funct
                 templateUrl: 'views/home.html',
                 controller: 'MainController'
             })
-            .when('/sighup',{
-                templateUrl: 'views/teams.html',
-                controller: 'TeamsController'
+            .when('/profile',{
+                templateUrl: 'js/team_edit/views/teams.html',
+                controller: 'teamEditCtrl'
             })
             .when('/teams', {
-                templateUrl: 'views/teams.html',
-                controller: 'TeamsController'
+                templateUrl: 'js/team_edit/views/teams.html',
+                controller: 'teamEditCtrl'
             })
 
             .when('/chat', {
@@ -46,3 +46,4 @@ angular.module('myTeamApp').run(function ($rootScope, $location) {
         }
     })
 });
+

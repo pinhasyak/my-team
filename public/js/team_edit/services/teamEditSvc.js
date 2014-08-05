@@ -1,11 +1,8 @@
 /**
  * Created by pi on 6/6/14.
  */
-angular.module('TeamsService', [])
-
-    // super simple service
-    // each function returns a promise object
-    .factory('Teams', function($http) {
+angular.module('teamEdit')
+    .factory('teamEditSvc', function($http) {
         return {
             get : function() {
                 return $http.get('/api/teams');

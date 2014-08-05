@@ -1,7 +1,7 @@
 {
-  "name": "my-team",
+  "name": "my-team_edit",
   "version": "0.0.1",
-  "description": "node my team application",
+  "description": "node my team_edit application",
   "main": "server.js",
   "scripts": {
     "test": "test"
