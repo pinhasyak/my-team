@@ -269,7 +269,7 @@ function shallowClearAndCopy(src, dst) {
  *
  * It's worth noting that the success callback for `get`, `query` and other methods gets passed
  * in the response that came from the server as well as $http header getter function, so one
- * could rewrite the above example and get access to http headers as:
+ * could rewrite the above example and get access.js to http headers as:
  *
    ```js
      var User = $resource('/user/:userId', {userId:'@id'});
@@ -282,7 +282,7 @@ function shallowClearAndCopy(src, dst) {
      });
    ```
  *
- * You can also access the raw `$http` promise via the `$promise` property on the object returned
+ * You can also access.js the raw `$http` promise via the `$promise` property on the object returned
  *
    ```
      var User = $resource('/user/:userId', {userId:'@id'});
@@ -549,7 +549,7 @@ angular.module('ngResource', ['ng']).
                     value.push(new Resource(item));
                   } else {
                     // Valid JSON values may be string literals, and these should not be converted
-                    // into objects. These items will not have access to the Resource prototype
+                    // into objects. These items will not have access.js to the Resource prototype
                     // methods, but unfortunately there
                     value.push(item);
                   }

@@ -1,7 +1,7 @@
 {
-  "name": "my-team",
+  "name": "my-team_edit",
   "version": "0.0.1",
-  "description": "node my team application",
+  "description": "node my team_edit application",
   "main": "server.js",
   "scripts": {
     "test": "test"
@@ -19,10 +19,10 @@
     "express-session": "~1.5.0"
   },
   "devDependencies": {
-    "karma-mocha": "~0.1.4",
-    "mocha": "~1.20.1",
-    "karma-chai-plugins": "~0.2.1",
-    "karma": "~0.12.16",
-    "karma-chrome-launcher": "~0.1.4"
+    "karma": "^0.12.21",
+    "karma-chai-plugins": "^0.2.3",
+    "karma-chrome-launcher": "~0.1.4",
+    "karma-mocha": "^0.1.6",
+    "mocha": "^1.21.3"
   }
 }

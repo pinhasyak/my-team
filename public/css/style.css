@@ -1,10 +1,12 @@
 body { padding-top:70px; }
 
 .navbar-custom {
-    background-color: rgba(60, 18, 26, 0.91);
+    background-color:#3b5998;
     color:#ffffff;
     border-radius:0;
 }
 .toast-top-right{
     top:55px
 }
+
+

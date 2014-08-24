@@ -21,13 +21,18 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       'test/test-app.js',
       'test/tests/**/*.js',
-      'public/js/**/*.js'
+      'public/js/access/access.js',
+      'public/js/access/services/loggedUserSvc.js'
+//      'public/js/**/*.js'
     ],
 
 
     // list of files to exclude
     exclude: [
-      'public/js/app.js'
+      'public/js/app.js',
+      'public/js/access.js/access.js.js',
+      'public/js/common/common.js',
+      'public/js/team_edit/team_edit.js'
     ],
 
 

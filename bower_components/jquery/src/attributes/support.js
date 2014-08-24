@@ -13,7 +13,7 @@ define([
 	// Check the default checkbox/radio value ("" on old WebKit; "on" elsewhere)
 	support.checkOn = input.value !== "";
 
-	// Must access the parent to make an option select properly
+	// Must access.js the parent to make an option select properly
 	// Support: IE9, IE10
 	support.optSelected = opt.selected;
 

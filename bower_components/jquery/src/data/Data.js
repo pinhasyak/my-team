@@ -86,7 +86,7 @@ Data.prototype = {
 	get: function( owner, key ) {
 		// Either a valid cache is found, or will be created.
 		// New caches will be created and the unlock returned,
-		// allowing direct access to the newly created
+		// allowing direct access.js to the newly created
 		// empty data object. A valid owner object must be provided.
 		var cache = this.cache[ this.key( owner ) ];
 

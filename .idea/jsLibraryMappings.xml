@@ -2,6 +2,8 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{Node.js Dependencies for my-team}" />
+    <file url="file://$PROJECT_DIR$/server.js" libraries="{Node.js Globals}" />
+    <file url="PROJECT" libraries="{Node.js v0.10.30 Core Modules}" />
   </component>
 </project>
 

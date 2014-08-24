@@ -3588,7 +3588,7 @@ Data.prototype = {
 	get: function( owner, key ) {
 		// Either a valid cache is found, or will be created.
 		// New caches will be created and the unlock returned,
-		// allowing direct access to the newly created
+		// allowing direct access.js to the newly created
 		// empty data object. A valid owner object must be provided.
 		var cache = this.cache[ this.key( owner ) ];
 
@@ -6890,7 +6890,7 @@ jQuery.fn.delay = function( time, type ) {
 	// Check the default checkbox/radio value ("" on old WebKit; "on" elsewhere)
 	support.checkOn = input.value !== "";
 
-	// Must access the parent to make an option select properly
+	// Must access.js the parent to make an option select properly
 	// Support: IE9, IE10
 	support.optSelected = opt.selected;
 

@@ -2554,7 +2554,7 @@ function getBooleanAttrName(element, name) {
   // check dom last since we will most likely fail on name
   var booleanAttr = BOOLEAN_ATTR[name.toLowerCase()];
 
-  // booleanAttr is here twice to minimize DOM access
+  // booleanAttr is here twice to minimize DOM access.js
   return booleanAttr && BOOLEAN_ELEMENTS[element.nodeName] && booleanAttr;
 }
 
@@ -3127,7 +3127,7 @@ HashMap.prototype = {
  *   });
  * ```
  *
- * Sometimes you want to get access to the injector of a currently running Angular app
+ * Sometimes you want to get access.js to the injector of a currently running Angular app
  * from outside Angular. Perhaps, you want to inject and compile some markup after the
  * application has been bootstrapped. You can do this using extra `injector()` added
  * to JQuery/jqLite elements. See {@link angular.element}.
@@ -4517,7 +4517,7 @@ function Browser(window, document, $log, $sniffer) {
    * @param {string=} value Cookie value
    *
    * @description
-   * The cookies method provides a 'private' low level access to browser cookies.
+   * The cookies method provides a 'private' low level access.js to browser cookies.
    * It is not meant to be used directly, use the $cookie service instead.
    *
    * The return values vary depending on the arguments that the method was called with as follows:
@@ -4639,7 +4639,7 @@ function $BrowserProvider(){
  * @name $cacheFactory
  *
  * @description
- * Factory that constructs {@link $cacheFactory.Cache Cache} objects and gives access to
+ * Factory that constructs {@link $cacheFactory.Cache Cache} objects and gives access.js to
  * them.
  *
  * ```js
@@ -4969,9 +4969,9 @@ function $CacheFactoryProvider() {
    * @name $cacheFactory#get
    *
    * @description
-   * Get access to a cache object by the `cacheId` used when it was created.
+   * Get access.js to a cache object by the `cacheId` used when it was created.
    *
-   * @param {string} cacheId Name or id of a cache to access.
+   * @param {string} cacheId Name or id of a cache to access.js.
    * @returns {object} Cache object identified by the cacheId or undefined if no such cache.
    */
     cacheFactory.get = function(cacheId) {
@@ -5388,7 +5388,7 @@ function $TemplateCacheProvider() {
  *
  * accessing *Normalized attribute names:*
  * Directives like 'ngBind' can be expressed in many ways: 'ng:bind', `data-ng-bind`, or 'x-ng-bind'.
- * the attributes object allows for normalized access to
+ * the attributes object allows for normalized access.js to
  *   the attributes.
  *
  * * *Directive inter-communication:* All directives share the same instance of the attributes
@@ -5503,7 +5503,7 @@ function $TemplateCacheProvider() {
  * After linking the view is not updated until after a call to $digest which typically is done by
  * Angular automatically.
  *
- * If you need access to the bound view, there are two ways to do it:
+ * If you need access.js to the bound view, there are two ways to do it:
  *
  * - If you are not asking the linking function to clone the template, create the DOM element(s)
  *   before you send them to the compiler and keep this reference around.
@@ -5513,7 +5513,7 @@ function $TemplateCacheProvider() {
  *
  * - if on the other hand, you need the element to be cloned, the view reference from the original
  *   example would not point to the clone, but rather to the original template that was cloned. In
- *   this case, you can access the clone via the cloneAttachFn:
+ *   this case, you can access.js the clone via the cloneAttachFn:
  *   ```js
  *     var templateElement = angular.element('<p>{{total}}</p>'),
  *         scope = ....;
@@ -7248,12 +7248,12 @@ function parseHeaders(headers) {
 
 
 /**
- * Returns a function that provides access to parsed headers.
+ * Returns a function that provides access.js to parsed headers.
  *
  * Headers are lazy parsed when first requested.
  * @see parseHeaders
  *
- * @param {(string|Object)} headers Headers to provide access to.
+ * @param {(string|Object)} headers Headers to provide access.js to.
  * @returns {function(string=)} Returns a getter function which if called with:
  *
  *   - if called with single an argument returns a single header value or null
@@ -9795,15 +9795,15 @@ var promiseWarning;
 // Sandboxing Angular Expressions
 // ------------------------------
 // Angular expressions are generally considered safe because these expressions only have direct
-// access to $scope and locals. However, one can obtain the ability to execute arbitrary JS code by
+// access.js to $scope and locals. However, one can obtain the ability to execute arbitrary JS code by
 // obtaining a reference to native JS functions such as the Function constructor.
 //
 // As an example, consider the following Angular expression:
 //
 //   {}.toString.constructor(alert("evil JS code"))
 //
-// We want to prevent this type of access. For the sake of performance, during the lexing phase we
-// disallow any "dotted" access to any member named "constructor".
+// We want to prevent this type of access.js. For the sake of performance, during the lexing phase we
+// disallow any "dotted" access.js to any member named "constructor".
 //
 // For reflective calls (a[b]) we check that the value of the lookup is not the Function constructor
 // while evaluating the expression, which is a stronger but more expensive test. Since reflective
@@ -9818,7 +9818,7 @@ var promiseWarning;
 // A developer could foil the name check by aliasing the Function constructor under a different
 // name on the scope.
 //
-// In general, it is not possible to access a Window object from an angular expression unless a
+// In general, it is not possible to access.js a Window object from an angular expression unless a
 // window or some DOM object that has a reference to window is published onto a Scope.
 
 function ensureSafeMemberName(name, fullExpression) {
@@ -10961,11 +10961,11 @@ function $ParseProvider() {
    * **Deprecation notice**
    *
    * This is a feature that didn't prove to be wildly useful or popular, primarily because of the
-   * dichotomy between data access in templates (accessed as raw values) and controller code
+   * dichotomy between data access.js in templates (accessed as raw values) and controller code
    * (accessed as promises).
    *
    * In most code we ended up resolving promises manually in controllers anyway and thus unifying
-   * the model access there.
+   * the model access.js there.
    *
    * Other downsides of automatic promise unwrapping:
    *
@@ -11151,7 +11151,7 @@ function $ParseProvider() {
  * A new promise instance is created when a deferred instance is created and can be retrieved by
  * calling `deferred.promise`.
  *
- * The purpose of the promise object is to allow for interested parties to get access to the result
+ * The purpose of the promise object is to allow for interested parties to get access.js to the result
  * of the deferred task when it completes.
  *
  * **Methods**
@@ -18366,7 +18366,7 @@ var ngCloakDirective = ngDirective({
  * Here is a simple form for editing user contact information. Adding, removing, clearing, and
  * greeting are methods declared on the controller (see source tab). These methods can
  * easily be called from the angular markup. Notice that the scope becomes the `this` for the
- * controller's instance. This allows for easy access to the view data from the controller. Also
+ * controller's instance. This allows for easy access.js to the view data from the controller. Also
  * notice that any changes to the data are automatically reflected in the View without the need
  * for a manual update. The example is shown in two different declaration styles you may use
  * according to preference.
@@ -19160,7 +19160,7 @@ var ngIfDirective = ['$animate', function($animate) {
  * and [Cross-Origin Resource Sharing (CORS)](http://www.w3.org/TR/cors/)
  * policy may further restrict whether the template is successfully loaded.
  * For example, `ngInclude` won't work for cross-domain requests on all browsers and for `file://`
- * access on some browsers.
+ * access.js on some browsers.
  *
  * @animations
  * enter - animation is used to bring new content into the browser.
